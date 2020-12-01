@@ -55,7 +55,7 @@ public class BoardGenerator : MonoBehaviour
     {
         Vector3 spawnPosition = new Vector3(
             Random.Range(boardBorders[0], boardBorders[1]),
-            target.position.y,
+            target.position.y + 3,
             zOffset
             );
 
